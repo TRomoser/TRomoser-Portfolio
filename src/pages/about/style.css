@@ -98,3 +98,10 @@
         transform: translateZ(0);
     }
 }
+
+
+.headshot {
+  object-position: center top;
+  width: 50%;
+  filter:grayscale(50%)
+}

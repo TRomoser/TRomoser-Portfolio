@@ -55,7 +55,15 @@ export const About = () => {
             </table>
           </Col>
         </Row>
-        <Row className="sec_sp">
+        <Row>
+          <Col lg="5">
+            <h3 className="color_sec py-4"></h3>
+          </Col>
+          <Col lg="7">
+            <img className="headshot" src='https://i.imgur.com/x3ACFe5.png' />
+          </Col>
+        </Row>
+        {/* <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
@@ -78,8 +86,8 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
-        <Row className="sec_sp">
+        </Row> */}
+        {/* <Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">services</h3>
           </Col>
@@ -93,7 +101,7 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </HelmetProvider>
   );

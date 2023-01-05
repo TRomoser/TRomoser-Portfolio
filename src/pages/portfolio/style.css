@@ -13,9 +13,10 @@
     text-align: center;
     margin: 0.5rem auto;
     position: relative;
-    background: var(--secondary-color);
+    background: gray;
     padding: 6px;
     border: 1px solid var(--secondary-color);
+    border-radius: 0%;
     transition: 0.3s ease;
     font-size: 0;
     min-height: 300px;
