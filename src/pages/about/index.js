@@ -6,8 +6,8 @@ import {
   dataabout,
   meta,
   worktimeline,
-  skills,
-  services,
+  // skills,
+  // services,
 } from "../../content_option";
 
 export const About = () => {
@@ -57,10 +57,10 @@ export const About = () => {
         </Row>
         <Row>
           <Col lg="5">
-            <h3 className="color_sec py-4"></h3>
+            <h3 className="color_sec py-4"> </h3>
           </Col>
           <Col lg="7">
-            <img className="headshot" src='https://i.imgur.com/x3ACFe5.png' />
+            <img className="headshot" src='https://i.imgur.com/x3ACFe5.png' alt='headshot' />
           </Col>
         </Row>
         {/* <Row className="sec_sp">
